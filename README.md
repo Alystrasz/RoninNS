@@ -1,4 +1,4 @@
-# Ronin-NS
+# RoninNS
 A CLI tool to update/install Northstar using Bash. :)
 --
 ## What does it do?
