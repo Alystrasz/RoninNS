@@ -24,6 +24,19 @@ def grab():
     print("Grabbing NS v{latest}...")
     os.system(f"cd ~/Downloads; curl https://www.github.com/R2Northstar/Northstar/v{version}/Northstar.release.v{version}.zip")
     print("Grab successful!")
-print("Ronin - The CLI for Northstar - v1.2.0")
+print("RoninNS - The CLI for Northstar - v1.2.0 Experimental")
 print("What would you like to do?")
 print("1. Grab and Install\n2. Grab\n0. Exit")
+while True:
+  prompt = input("Select an option: ")
+  if prompt == '1':
+    break
+    grabinstall()
+   elif prompt == '2':
+    break
+    grab()
+   elif prompt == '0':
+    break
+    exit()
+   else:
+    print("Invalid response.")
