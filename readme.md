@@ -1,7 +1,6 @@
 # RoninNS
---
-# Announcements
-#### RPM package coming soon!!!
+## Announcements
+#### - RPM package coming soon!!!
 ## What systems are compatible?
 - RPM systems
 - DEB systems: coming soon
