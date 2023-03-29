@@ -1,6 +1,8 @@
 # RoninNS initialization #
+
 import os
 rver = "1.1.0"
+
 def grabninstall(version):
   print("Grabbing latest version detected in varlib...")
   if os.path.exists("~/.ronin/"):
@@ -32,7 +34,9 @@ def grab(version):
   print(f"Done! NS v{version} should now be in your Downloads.")
 def netgrab(file):
   os.system(f"curl {file}")
+  
 # Initialization done #
+
 print(f"RoninNS for RPM v{rver}")
 while True:
   print("Choose an option:\n1. Grab 'n Install\n2. Grab\n0. Exit RoninNS")
