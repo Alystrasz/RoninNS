@@ -1,6 +1,7 @@
 # RoninNS
-A CLI tool to update/install Northstar using Bash. :)
 --
+# Announcements
+#### RPM package coming soon!!!
 ## What systems are compatible?
 - RPM systems
 - DEB systems: coming soon
